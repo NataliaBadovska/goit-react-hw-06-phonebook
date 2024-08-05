@@ -12,8 +12,6 @@ function App() {
     const filter = useSelector(state => state.filter);
     const dispatch = useDispatch();
 
-      console.log(contacts)
-
     const verifyingIdentityOfNames = (name) => {
         const normalizedName = name.toLowerCase();
     
